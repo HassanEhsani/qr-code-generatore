@@ -19,5 +19,5 @@ def generate_qrcode(text):
     img.save("qrimg.png")
     
     
-url = input("Enter your url: ")    
+url = input("Enter your url: ")    # this line 
 generate_qrcode("https://www.google.com")
